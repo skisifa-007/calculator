@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* here where coding main */
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: lightslategrey;
+
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: monospace;
+    color: rgb(16, 16, 34);
+    text-decoration: underline;
+    text-shadow: rgb(26, 25, 25) 1px 1px 1px;
+}
+
+.bg{
+    align-self: center;
+    margin-top: 5%;
+    background-color: lightgray;
+    width: auto;
+    height: auto;
+    display: flex;
+    border-radius: 4px;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 25px 1px black;
+}
+.bg .head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+
+
+}
+.bg .head input{
+    outline: none;
+    border: none;
+    height: 65px;
+    width: 250px;
+    background-color: lightgray;
+    font-size: 35px;
+    text-align: end;
+    color: rgb(66, 63, 63);
+}
+
+
+.bg .body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.bg .body .btns{
+    display: grid;
+    grid-template: repeat(5,62px) / repeat(4,62px);
+    grid-gap:1px;
+    
+}
+
+#eq{
+    width: 124px;
+    grid-column: span 2;
+    background-color: lightskyblue;
+    font-size: 20px;
+}
+#eq:hover{
+    background-color: rgb(98, 166, 209);
+}
+.symbols{
+    width: 62px;
+    height: 62px;
+    border: none; 
+    outline: none;
+    background-color: rgb(196, 229, 250);
+    font-size: 20px;
+}
+.symbols:hover{
+    background-color:  rgb(188, 218, 236);
+}
+
+.smoke{
+    width: 62px;
+    height: 62px;
+    border: none; 
+    outline: none;
+    background-color: rgb(187, 181, 181);
+    font-size: 17px;
+}
+.smoke:hover{
+    background-color: lightgray;
+    }
+.btn{
+    width: 62px;
+    height: 62px;
+    border: none; 
+    outline: none;
+    background-color: white;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight:bold;
+}
+
+
+.btn:hover{
+background-color: lightgray;
+}
+
+/* End main */
+
+
+/* here where coding footer */
+
+footer{
+    display: flex;
+    align-self: center;
+    height: 100vh;
+    align-items: flex-end;
+    margin-bottom: 20px;
+
+}
+
+footer p{
+    font-family: monospace;
+    font-size: 15px;
+}
+
+footer p span{
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: underline;
+    color: goldenrod;
+}
+
+
+/* End footer */
